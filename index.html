@@ -1,0 +1,28 @@
+---
+layout: default
+title: Oinak on the Web
+---
+
+<div id="home">
+  <h1>Recent adventures</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h1>Interviews, Talks, Volunteer work&hellip;</h1>
+  <ul class="posts">
+    <li><span>03-05 Nov 2010</span> &raquo; <a href="http://www.conferenciarails.org">Conferencia Rails 2010 - Organization Staff</a></li>
+    <li><span>25-27 Nov 2009</span> &raquo; <a href="http://www.slideshare.net/ferdinand13/el-ferrocarril-contra-los-arboles-muertos2">Talk (Spanish)</a> about the printing technologies available to Rails developers</li>
+  </ul>
+
+  <h1>Prominent Projects and Companies</h1>
+  <ul class="posts">
+    <li><a href="http://www.lciberica.es/productos/psp/">PSP (es)</a>: An incredible educational organization management tool.</li>
+    <li><a href="http://www.justlanded.com/">JustLanded (en)</a>: The leader social network and services gateway for expats.</li>
+    <li><a href="http://www.mobilifesl.com/">Mobilife (es)</a>: Heterogeneus upload management &amp; automated generation of legal docs.</li>
+    <li><a href="http://sic-sl.heroku.com/">SIC-SL (es)</a>: The best consultancy on heatlh comunication.</li>
+  </ul>
+</div>
+

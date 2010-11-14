@@ -1,0 +1,41 @@
+---
+layout: post
+title: A volunteer memories on putting up a Rails Conference
+---
+
+h1. {{ page.title }}
+
+p(meta). 14 Nov 2010 - Madrid
+
+A week came and went since the end of the last "Conferencia Rails":http://www.conferenciarails.org which was a very special one for me because it was the first one I helped to bring up as a member of the organization.
+
+It was not my first contribution to the event as I gave a talk about printing, PDF generation, and all sorts of paper related devils last year.
+
+This time however, I sook and had a mor active role in the development of the event. As anyone with eyes (and a browser pointed to github) can see, mine is a very poor example of Open Source activist.
+
+I defend and promote the learning, use and collaboration with open source since I had knowledge of its existance, but for different reasons ranging from studies to hockey competition engagement, I never had the time or chance to make a real contribution (speaking of code) myself.
+
+This year, taken away from hockey by my back injury, I devoted more of my afternoons than I want to think of to the upbringing and nurture of the fifth Spanish Rails Conference, traditionaly known as "La Conferencia Rails".
+
+So, how has it gone?, here I left my advices for those might came behind:
+
+h2. Do not hesitate to take responsability.
+
+p(((. It may seem an enormous quest, but it's worth the effort and the setbacks.
+
+h2. It won't be as amazing as you believe
+
+p(((. You will devise it as groundbreaking and revolutionary event as never seen before. Take a breath, a lot of good (but impractical, or expensive) ideas will have to be discarded. Many things will become replaced by a conveninece proxy. And many things will face unforeseen difficulties. Do not surrender, keep up and you'll eventualy make it to the finish line.
+
+h2. It won't be as dired as you fear
+
+p(((. There will be a moment, specially after something that was going to be cool fails, when you will feel that everything is doomed and there is no escape. That it will be the worst ever fiasco and tha people will point at you and mumble «that's the one that rouined it all». Well it won't. Anything is ireplaceable, Krakow's 2010 Euruko venue FLOODED a week from the conference, and it was a wonderful event, just held somewere else.
+
+h2. There will be critics
+
+p(((. Opinions are like like ass holes (if you forgive me the scatology), everyone has one and think the other ones stink. Dont worry, no matter how fantastic you are doing, someone will think otherwise, and say it aloud. Those ill-considered comments shall not bother you, mind the views of those working with you because the know the variety and dimension of all the problems taken into account.
+
+h2. Focus on your skills
+
+p(((. Try to do what you do best (be it organisation, design, PR wahtever) and seek help for whatever tasks outside your areas of expertise, do waht you do best and leave the rest for those who do it best.
+
