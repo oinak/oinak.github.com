@@ -1,6 +1,10 @@
 
 /* Home */
 
+div#home{
+    margin-bottom: 8em;
+}
+
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
