@@ -1,0 +1,39 @@
+---
+layout: post
+title: My two pennies to Open Source
+tags:
+  - open source
+  - rails
+  - log
+---
+
+h1. {{ page.title }}
+
+p(meta). 19 Nov 2010 - Madrid
+
+Today i was wondering were did some queris from my Rails log come from, so I did the logical thing, I went and installed the excellent "query_trace":https://github.com/ntalbott/query_trace by "Nathaniel Talbott":https://github.com/ntalbott
+
+But then I confronted the same proble as usual, this plugin is all or nothing, it is installed and inserting into your log or not installed at all.
+
+I am sure many of you have some soft link solution to this, or simply install/uninstall it when needed. Well I particulary had have enough of that and decided to scratch my own itch as it's said in the open source community.
+
+So before anything I google for it and Voilá: I found "Jon Leighton's":http://jonathanleighton.com/ fork on query_trace for doing exactly what I wanted:
+
+p(((. «Adds query origin tracing to your logs - this fork allows the plugin to be turned on/off in database.yml»
+
+So I installed, tried and... no luck. it didn't work for me and it did not have ntalbotts's last changes. So I openned the damn source and fixed both things, and for Stallman's sake put them back online on GitHub.
+
+As you can see there, my contribution is no big deal, just an _if_ clause around the main include at the *init.rb* file so to prevent the plugin actual loading unless you have explicitly asked for it from the *database.yml* section for the corresponding environment.
+
+{% highlight ruby linenos %}
+require 'query_trace'
+
+class ::ActiveRecord::ConnectionAdapters::AbstractAdapter
+  if  ActiveRecord::Base.connection.instance_variable_get("@config")[:query_trace]
+    include QueryTrace
+  end
+end
+{% endhighlight %}
+
+Thus if you want a "switchable query_trace":https://github.com/oinak/query_trace , don't hesitate and Fork me on "https://github.com/oinak/query_trace":(https://github.com/oinak/query_trace).
+
