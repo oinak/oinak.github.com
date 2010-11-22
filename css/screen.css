@@ -78,8 +78,12 @@ ul.posts {
       margin-right: 3em;
     }
 
-      .site .footer .contact a {
-        color: #8085C1;
+      #rss a {
+        color: #d45500;
+        text-decoration: none;
+      }
+      #rss a:hover {
+        color: #ff5c00;
       }
 
     .site .footer .rss {
