@@ -1,0 +1,79 @@
+---
+layout: post
+title: Bash and source control
+tags:
+  - bash
+  - shell
+  - git
+  - svn
+  - source control
+  - console
+  - terminal
+  - customization
+---
+
+h1. {{ page.title }}
+
+p(meta). 24 Nov 2010 - Madrid
+
+p. Just a quick note for myself and for those of you who do coding and use bash: Do you you want to have a pretty and infromative prompt like:
+
+<div style="background-color:black;color:gray;font-family:monospace">
+  <span style="color:yellow">fer</span><span style="color:gray">@</span><span style="color:green">pilgrim</span>
+  <span style="color:blue">~/src/oinak.github.com</span> <span style="color:red">(git:master → 212069f)</span> $
+</div>
+
+p. or like
+
+<div style="background-color:black;color:gray;font-family:monospace">
+  <span style="color:yellow">fer</span><span style="color:gray">@</span><span style="color:green">pilgrim</span>
+  <span style="color:blue">~/src/oinak.github.com</span> <span style="color:red">(svn:/trunk → 4480)</span> $
+</div>
+<br />
+
+Look for the place where your *~/.bashrc* file establishes the value of the _PS1_ special environment variable, comment it out and put this in its place:
+
+{% highlight bash linenos %}
+  parse_git_branch () {
+    echo -n "$(git name-rev HEAD 2> /dev/null | sed 's#HEAD\ \(.*\)# (git:\1#') → $(git log -1 --pretty=format:%h))"
+  }
+  parse_svn_branch() {
+    local s=
+    s=" ($(parse_svn_url | sed -e 's#^'"$(parse_svn_repository_root)"'##g' | awk '{print "svn:"$1"" }') → $(parse_svn_revision))"
+    echo -n "$s"
+  }
+  parse_svn_url() {
+    svn info 2>/dev/null | sed -ne 's#^URL: ##p'
+  }
+  parse_svn_repository_root() {
+    svn info 2>/dev/null | sed -ne 's#^Root of the repository: ##p'
+  }
+  parse_svn_revision() {
+    svn info | sed -n -e '/^Revision: \([0-9]*\).*$/s//\1/p'
+  }
+
+  scm_ps1() {
+    if [[ -d ".svn" ]] ; then
+        echo "$(parse_svn_branch)"
+    elif [[ -d ".git" ]] ; then
+        echo "$(parse_git_branch)"
+    fi
+  }
+
+  RED="\[\033[0;31m\]"
+  RED_BOLD="\[\033[01;31m\]"
+  GREEN="\[\033[0;32m\]"
+  GREEN_BOLD="\[\033[01;32m\]"
+  YELLOW="\[\033[0;33m\]"
+  YELLOW_BOLD="\[\033[01;33m\]"
+  BLUE="\[\033[0;34m\]"
+  BLUE_BOLD="\[\033[01;34m\]"
+  BLACK="\[\033[0;38m\]"
+
+  export PS1="$YELLOW_BOLD\u$BLACK@$GREEN_BOLD\h $BLUE_BOLD\w$RED\$(scm_ps1)$BLACK$ "
+{% endhighlight %}
+
+I hope the function names and color constants help you to understand what is going on and allow you to customize it to your own needs and taste.
+
+Good night and happy hacking.
+
