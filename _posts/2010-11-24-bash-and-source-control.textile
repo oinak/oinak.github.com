@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bash and source control
+title: Bash and source control (updated)
 tags:
   - bash
   - shell
@@ -34,8 +34,13 @@ p. or like
 Look for the place where your *~/.bashrc* file establishes the value of the _PS1_ special environment variable, comment it out and put this in its place:
 
 {% highlight bash linenos %}
+  #parse_git_branch () {
+  #  echo -n "$(git name-rev HEAD 2> /dev/null | sed 's#HEAD\ \(.*\)# (git:\1#') → $(git log -1 --pretty=format:%h))"
+  #}
+
+  # more elegant solution edited to include @mrdias suggestion
   parse_git_branch () {
-    echo -n "$(git name-rev HEAD 2> /dev/null | sed 's#HEAD\ \(.*\)# (git:\1#') → $(git log -1 --pretty=format:%h))"
+    echo -n "$(git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (git:\1/') → $(git log -1 --pretty=format:%h))"
   }
   parse_svn_branch() {
     local s=
@@ -76,4 +81,8 @@ Look for the place where your *~/.bashrc* file establishes the value of the _PS1
 I hope the function names and color constants help you to understand what is going on and allow you to customize it to your own needs and taste.
 
 Good night and happy hacking.
+
+p(meta). 25 Nov 2010 (UPDATE)
+
+I have edited _parse_git_branch_ function as "@mdias suggested":http://twitter.com/#!/dias_jorge/status/7839983956131840
 
