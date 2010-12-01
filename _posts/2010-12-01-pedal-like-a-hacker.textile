@@ -1,0 +1,54 @@
+---
+layout: post
+title: Pedal like a hacker
+tags:
+  - bike
+  - lifestyle
+  - commute
+  - tips
+  - philosophy
+  - hacker
+  - culture
+---
+
+h1. {{ page.title }}
+
+p(meta). 01 Dec 2010 - Madrid
+
+If you feel like or want to become a _hacker_, in the good sense (someone who makes things work beyond perceived limits in a clever way), here is a free tip for you, here it goes:
+
+p(((. _Own, ride and repair your own bike_
+
+!/images/2010-12-01-malibu.jpg(Conor Malibu)!
+
+p. Here are some quick reasons
+* It is a simple mechanism to learn and comprehend
+* All componentes are at plain sight
+* Every part is replaceable and/or easy to modify or repair
+
+p. It is in the spirit of the "Craftmanship":http://www.joelonsoftware.com/articles/Craftsmanship.html and helps you tou conceive the workings of a system composed of multiple parts, yet simple enough to keep it in mind and to not become a burden. Do you remember the '_Know and maintain your own tool_', your programming language/framework does not have anything to do with wheels, brakes, pumps etc. but it DOES have to do with parts interacting, with standards that allow a part to be replaced, with tuning to one's needs for improving performance and so on.
+
+In case you don't see my philosophical point&hellip;
+
+p. Here are some not hackerdom related reasons
+* It's healthier to cycle-commute if you can
+* and cheaper
+* and greener
+
+!/images/2010-12-01-traffic.jpg(I love cycling to work sign and traffic jam)!
+The sign reads: 'I love cycling to work' over Madrid's every morning traffic jam.
+
+h2. Lame excuses you shouldn't be making any more and the reasons you shoundn't
+
+- I will be late to work := I pedal about 20km (12.42 miles) round trip every day to work in a sloppy city like Madrid and I still win my car-driving friend on a similar distance by some minutes.
+
+- I will stink := Slower pace, deodorant, soap, a towel and extra clothes, modern miracles that fit in a back pack
+
+- I don't know how to repair a bike := "Come on!":http://lmgtfy.com/?q=how+to+bike
+
+- I am afraid of the traffic := Then ride in a "safe way":http://bicyclesafe.com/
+
+- My work place is too far away := Combine a foldable bike with public transport
+
+- My work is too close/I telecommute := Pedal during part of the two hours you _aren't_ driving to work ;-)
+

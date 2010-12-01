@@ -96,7 +96,7 @@ body, select, input, textarea {
   /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
   color: #444;
   /* set your base font here, to apply evenly */
-  font-family: Arial, sans-serif;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 /* Headers (h1,h2,etc) have no default font-size or margin,
@@ -215,28 +215,20 @@ button {  width: auto; overflow: visible; }
 /* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
 .clearfix { zoom: 1; }
 
-
-
-
-
-
  /* Primary Styles
     Author:
  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+dl {
+  padding-left: 1em;
+}
+dt {
+  color: #888;
+  font-style: italic;
+  padding-top: 0.5em;
+}
+dd{
+  padding-left: 2em;
+}
 
 /*
  * Media queries for responsive design
