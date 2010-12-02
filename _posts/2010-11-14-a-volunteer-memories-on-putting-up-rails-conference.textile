@@ -1,6 +1,13 @@
 ---
 layout: post
 title: A volunteer memories on putting up a Rails Conference
+tags:
+  - rails
+  - conferenciaror
+  - tips
+  - community
+  - volunteer
+  - event
 ---
 
 h1. {{ page.title }}
