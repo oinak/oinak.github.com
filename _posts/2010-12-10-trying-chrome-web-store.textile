@@ -1,0 +1,53 @@
+---
+layout: post
+title: Trying Chrome Web Store
+tags:
+  - google
+  - chrome
+  - web
+  - store
+  - tips
+---
+
+h1. {{ page.title }}
+
+p(meta). 10 Dec 2010 - Madrid
+
+Two days ago Google released their "Chrome app store":http://chrome.google.com/webstore which is intended to provide a common source of apps for both the Chrome browser and the new "ChromeOS powered devices":http://www.google.com/chromeos/features-apps.html
+
+And I wondered how easy or uneasy it would be to put up an app for the Chrome ecosystem, and the anwser is: Do you have a web service? you are done.
+
+Yes? yes
+
+Yesterday, a friend of mine said Chrome apps are nothing but bookmarks. but there is a bit more, there is a thin layer of candy consisting on: discovery, ratings, feedback, simplified payment gateway, plattform shared customer trust&hellip;
+
+The process is quite straightforward if you go to "http://code.google.com/intl/es-ES/chrome/apps/docs/developers_guide.html":http://code.google.com/intl/es-ES/chrome/apps/docs/developers_guide.html and follow the instructions there.
+
+All you need is:
+
+* An icon, best is 96x96 PNG with transparent border until 128x128 pixels.
+* An screenshot proportional to 800x550.
+* A manifest file like:
+
+{% highlight javascript linenos %}
+{
+  "name": "Oinak",
+  "description": "Subscribe to «Oinak on the Web»",
+  "version": "1.0.1",
+  "icons": { "128": "128.png" },
+  "app": {
+    "urls": [ "http://oinak.com/" ],
+    "launch": { "web_url": "http://oinak.com/" }
+  },
+  "permissions": []
+}
+{% endhighlight %}
+
+Then you have to put the PNG icon and the manifest into a folder into a Zip that you upload, upload the screenshot, pay the one time 5 bucks developer fee, and validate (through the webmaster tools) that you own the url the app points to, via a metatag, an uploaded file, a DNS change and a couple other options.
+
+And voilá in a minute you have: "A shiny chrome app":https://chrome.google.com/webstore/detail/mhbghjpbplifgojfnpfmmlpilflpbpkm
+
+If you want to see the whole thing, fork me at "https://github.com/oinak/oinak_app":https://github.com/oinak/oinak_app
+
+
+
