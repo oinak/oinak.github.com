@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Winner of A book apart!
+title: Winner of A book apart! (UPDATED)
 tags:
   - html5
   - alistapart
@@ -14,7 +14,7 @@ tags:
 
 h1. {{ page.title }}
 
-p(meta). 09 Jan 2011 - Madrid
+p(meta). 09 Jan 2011 - Madrid (UPDATED: 18 ene 2011)
 
 Just as I announced, I have randomly picked up one of the (couple of) tweets opting to win the copy of "HTML5 FOR WEB DESIGNERS":http://books.alistapart.com/products/html5-for-web-designers
 
@@ -24,7 +24,10 @@ I could have used a coin but for rules sake I used the stated method:
 
 So the fisrt of the tweets was the winner, and this was: "@Wepwawet's":http://twitter.com/Wepwawet/status/22625854861344768
 
-Soon some pics of the prize handing.
+-Soon some pics of the prize handing.-
+
+UPDATE: Look at the face of the happy winner!
+<img src="http://www.oinak.com/images/2011-01-09-winner.jpg" title="(@Wepwawet)" alt="(@Wepwawet)" style="width:50%">
 
 There will be a second prize of a Friendly Neighbourly Beer for all the other participants (namely: "@supersonik86":http://twitter.com/supersonik86) you will be contacted about this :D
 
