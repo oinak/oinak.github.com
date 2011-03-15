@@ -1,0 +1,25 @@
+---
+layout: post
+title: Rubyists Coming Together For Japan
+tags:
+  - japan
+  - ruby
+  - earthquake
+  - help
+  - relief
+---
+
+h1. {{ page.title }}
+
+p(meta). 15 Mar 2011 - Madrid
+
+On Friday, March 12th, an 8.9 magnitude earthquake struck off the North East coast of Japan resulting in massive devastation and human casualties. At this time, hundreds of thousands are without shelter, power, food or water and the conditions are quickly deteriorating.
+
+Japan is the birthplace of Ruby, and Ruby has made our lives collectively better. It's now our turn to focus our attention and efforts towards helping our friends, partners and the citizens of Japan. As we've learned from recent disasters, the initial rescue and recovery work is only the first step of a long journey and as members of the Ruby community, we hope to make a difference one dollar at a time. We invite you to join us!
+
+We are directing people to the American Red Cross to provide support, which may include mobilizing relief workers, sending relief supplies, and providing financial resources for recovery.
+
+See original posting and help button: "Rubyists Coming Together For Japan":http://www.rubyistsforjapan.com/
+
+If you are short of time, proceed directly from here: "Click here to help Japan":http://american.redcross.org/site/PageServer?pagename=ntld_main&s_src=RSG000000000&s_subsrc=RCO_BigRedButton
+
