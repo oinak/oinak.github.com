@@ -1,0 +1,24 @@
+---
+layout: post
+title: The rough way back home
+tags:
+  - debian
+  - ubuntu
+  - systems
+  - freedom
+  - setup
+---
+
+h1. {{ page.title }}
+
+p(meta). 27 June 2011 - Madrid
+
+!>http://www.oinak.com/images/2011-06-27-squeeze.png(Debian Squeeze)!
+
+I spent this last weekend kicking ubuntu off my laptop and devoting it to a significantly less sinful Debian Squeeze. 
+
+Not that there is anything wrong with Ubuntu. It works wonderful on my machine. It is just that I had the spare time, and the wish to feel crafty. It has been a very rewarding experience. every bit of manual tuning, of unautomatic setup and of diminished ""it-just-works-iness" have broguht me back to my college years when Knopper was all we had and console mplayer full screen was awesome enought to spent an evening.
+
+Sometimes you do not prefer the easiest tool, sometimes you want to trade some comfort for power, or for the pleasure of some pleasing kind of work.
+
+Yesterday was one of those times.

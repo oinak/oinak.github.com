@@ -1,0 +1,24 @@
+---
+layout: post
+title: At euruko
+tags:
+  - berlin
+  - ruby
+  - 2011
+  - trip
+  - conference
+  - europe
+---
+
+h1. {{ page.title }}
+
+p(meta). 28-29 Mar 2011 - Berlin
+
+After a very negative experience with "@amiando":http://twitter.com/amiando during the process of trying to get a ticket for "euruko 2011":http://euruko2011.org I had the luck that my former coworker "@dias_jorge":http://twitter.com/dias_jorge who got a ticket but was finally unable to go.
+
+Euruko was a wonderful experience an a great example to take notes from regarding the next "Conferencia Rails":http://conferenciarails.org. 
+Berlin is a very wellcoming city where I felt a great envy for the bike friendly streets and infrastructures. The venue was a big win in many asects the incredible screen and very comfortable seats accounted for the scarce power lines let alone the very good wifi signal they secured throught some antenna-jutsu.
+
+I will try to ensure my tickets next year, and reproduce this very positive experience, but not the unnecesary emtion of not having tickets til last moment.
+
+
