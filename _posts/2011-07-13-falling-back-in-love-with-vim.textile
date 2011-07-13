@@ -1,0 +1,41 @@
+---
+layout: post
+title: Falling (back) in love with vim
+tags:
+  - editor
+  - IDE
+  - code
+  - source
+  - programming
+  - open source
+  - setup
+---
+
+h1. {{ page.title }}
+
+p(meta). 13 July 2011 - Madrid
+
+<a href="http://conferenciarails.org" style="float:right" >
+  <img src="http://conferenciarails.org/images/badges/im_attending_aside.png" width="200" height="180" alt="I'm Attending Conferencia Rails 2011"/>
+</a>
+
+Today I spent most of the day recording the "Conferencia Rails":http://www.conferenciarails.org workshops videos. Which meant a lot of A/V hardware carrying, not being able to properly attend the workshops myself and a bizrre amount of Gygabytes of video brought back home with an absurd resolution of 1900x1080 (what is this, the future).
+
+But the case is tha I coud stare to the screen of a lot of geeks to check what they where using to code.
+
+I have seen the dawn of the IDE's winth not a single RubyMine, Aptana or Netbeans in the room, and three clear winners: Textmate, Gedit and Vim.
+
+Textmate got famous among Rails comunity from David Heinenmeyer's Screencasts and has never stopped being popular since, despite of an inexistent update roadmap and an unclear support.
+
+Gedit is the default GNOME editor, at hand to every Linux newcomer, and easy for those wo werent programming extensively before Rails or did so just with specific IDEs. It lacks integration and some advanced features many of which can be covered or replaced by "Gmate project":https://github.com/gmate/gmate which tries to emulate on Gedit some of TextMate functionality.
+
+For the hardcore thru-ssh server crawlers, old-school coders, UNIX-geeks and other curious specimens there is THE EDITOR. I mean (sorry emacs lovers) "Vim":http://www.vim.org.
+
+I don't mean that there aren't other editors, nor even that there aren't other popular editor among Rubyists, I mean that what I saw at "Conferencia Rails":http://www.conferenciarails.org was: TextMate, gedit, vim, and no IDE's.
+
+By chance I had made my move back to Vim as my main editor just a couple of weeks ago, thanks to a good "Vimcasts":http://www.vimcasts.org session, and a couple of weeks curating "this setup":https://github.com/oinak/dotvim
+
+I am very happy with it now, share it across my workstations and don't feel like changing my mind anytime soon. Who knows. But for now...
+
+:wq
+
