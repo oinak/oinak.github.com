@@ -1,0 +1,32 @@
+---
+layout: post
+title: Second day at Conferencia Rails
+tags:
+  - conference
+  - events
+  - Conferencia Rails
+  - volunteer
+  - ruby
+  - rails
+  - madrid
+---
+
+h1. {{ page.title }}
+
+p(meta). 14 July 2011 - Madrid
+
+<a href="http://conferenciarails.org" style="float:right" >
+  <img src="http://conferenciarails.org/images/badges/im_attending_aside.png" width="200" height="180" alt="I'm Attending Conferencia Rails 2011"/>
+</a>
+
+Today is the second day at "Conferencia Rails":http://www.conferenciarails.org and it's being awesome.
+
+"Javier Ramirez":http://twitter.com/supercoco9 openen with a colorful narrative of the story of the Spanish Ruby community and how Ruby and Rails began and evolved in Spain thought the past six years.
+
+The talk included a 7 t-shirt strip-tease which isn't even strange for a javier's talk.
+
+Then Julian Fischer who fortunately survived riding his bike like 2000kms to come to the conference talked us about moving forward to newer versions of Rails even in already working production apps. I liked how he talked about it as an unavoidable maintenance like car's one. I hope this idea flourishes at my workplace taken tha my boss was at the talk.
+
+It is not being as hot as we initialy feared but the worst hours are yet to come this afternoon, maybe turning the Rollerskating 101 workshop into a "Roasted geek buffet".
+
+We at "LCIbérica":http://bit.ly/lcijob are also trying to recruit during the conference, and that's the reason I hang aroung with a QRcode stick to my chest, and the reason I dared my boss "@rmoliva":http://twitter.com/rmoliva into presenting a "lighting talk":https://conferenciarails2011.jottit.com/ today which, by the time of this writing, you still can do yourself.
