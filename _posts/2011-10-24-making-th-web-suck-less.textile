@@ -1,0 +1,71 @@
+---
+layout: post
+title: Making the Web suck less
+tags:
+  - web
+  - ads
+  - spam
+  - hosts
+  - nginx
+  - dns
+---
+
+h1. {{ page.title }}
+
+p(meta). 2 July 2011 - Madrid
+
+
+<a href="http://www.flickr.com/photos/hegarty_david/2255499619/" style="float:right" >
+  <img src="http://farm3.static.flickr.com/2002/2255499619_99d5e0f737_m.jpg" width="240" height="240" alt="hegarty_david no_spam"/>
+  "No Spam" by David Hegarty
+</a>
+
+
+
+Yesterday I came across "Dan Pollock's page about hosts":http://someonewhocares.org/ and I decided to try it.
+
+First of all I was impacted by how many sites I read daily were affected. Then I was disappointed because I
+was __noticing__ *the lack of ads* at every place I saw the "Counldn't connect" notice. This was the exact
+opposite of the initial purpose.
+
+The problem is that I had my brain already trained to avoid most of the ads, but not to avoid missing web
+resources. As I spend most of my computer time on Web development enabled machines, I almost always have a 
+webserver on. This came to my rescue in the form of a catchall location on my nginx configuration that picks
+every request to localhost that is not a previously configured location, and sets a discrete and visually
+avoidable 404 error page for all of them.
+
+In case you feel tempted to follow my steps, here you have my setup:
+
+At _/opt/nginx/sites-available/spam-eater_:
+
+<pre>
+<code>
+    server {
+        listen          80 default_server;
+        server_name     _;
+        error_page      404 = /index.html;
+        index           index.html;
+        root            /path/to/no_ads;
+    }
+</code>
+</pre>
+
+At _/path/to/no_ads_:
+
+<pre>
+<code>
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+    <meta charset="utf-8">
+    <title>No ads</title>
+    </head>
+    <body>
+    No ads today :-)
+    </body>
+    </html>
+</code>
+</pre>
+
+
+
