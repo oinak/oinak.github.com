@@ -12,7 +12,7 @@ tags:
 
 h1. {{ page.title }}
 
-p(meta). 2 July 2011 - Madrid
+p(meta). 24 August 2011 - Madrid
 
 
 <a href="http://www.flickr.com/photos/hegarty_david/2255499619/" style="float:right" >
