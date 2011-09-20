@@ -1,0 +1,40 @@
+---
+layout: post
+title: Days away from telecommute
+tags:
+  - work
+  - craft
+  - transport
+  - agile
+  - lifestyle
+  - internet
+---
+
+h1. {{ page.title }}
+
+p(meta). 20 September 2011 - Madrid
+
+
+<a href="http://www.flickr.com/photos/citrixonline/5447248934" style="float:right" >
+  <img src="http://farm6.static.flickr.com/5257/5447248934_2e8dab6209_m.jpg" width="240" height="161" alt="citrixonline workshifting"/>
+  "WorkShifting" by Citrix Online
+</a>
+
+I am going to work from home!
+
+Just as I did as an experiment on August, and for three days each week.
+
+This is quite a milestone, not just for the comfort and the fuel save.
+
+Spain is a place known for people avoiding work, bosses that keep you endless hours in which you try to work
+the least, and other office roguedom (is that even a word?) stories. This is an old and sad image, but it has
+deep roots into our national idiosyncrasy. Work is not usually measured nor paid by achievements, but for
+time spent. It is a bad message tha leads to horrendous results.
+
+I consider that developing the trust relation with your employer that allows you to do your thing out of their
+sight is the first step in the path of not being _stopclocked_ while you work. I would like to (and hope to
+someday) work in a purely goal-targeted manner. Code is not sausages, you don't always get as much done in
+the same amount of time. This is not a new thing, freelancers know it well, however they pay a high price
+('free' as in "no one gives a shit if you end up broke") for that freedom.
+
+
